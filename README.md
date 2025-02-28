@@ -8,6 +8,7 @@ Este repositório contém a configuração para **implementar o Kubernetes Desch
 O **Kubernetes Descheduler** ajuda a melhorar a distribuição dos pods dentro do cluster. O Kubernetes **escalona pods apenas no momento da criação**, mas não os redistribui caso a infraestrutura mude. O Descheduler **roda periodicamente** e desaloca pods que estão mal distribuídos, permitindo que o agendador (scheduler) os posicione de forma mais eficiente.
 
 **Benefícios do Descheduler**:
+
 ✅ **Melhor balanceamento de carga** → Evita sobrecarga de alguns nós e subutilização de outros.  
 ✅ **Otimização de custos** → Usa os recursos do cluster de forma eficiente.  
 ✅ **Maior estabilidade** → Reduz gargalos e melhora a disponibilidade dos serviços.  
