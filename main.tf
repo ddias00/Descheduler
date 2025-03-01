@@ -3,6 +3,7 @@ resource "helm_release" "descheduler" {
   namespace  = "kube-system"
   chart      = "descheduler"
   repository = "https://kubernetes-sigs.github.io/descheduler"
+  version    = "0.32.2"
 
   # Define o intervalo de execução do CronJob
   set {
